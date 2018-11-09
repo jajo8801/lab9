@@ -1,0 +1,15 @@
+<!--This file is the common HTML template for the header of each page of  our App. 
+Instead of repeating this piece of code in every HTML page of our App we extract it
+into partials which can then just be included into different views or pages!-->
+<html>
+<head>
+   <!-- The param which is passed from render-->
+   <title><%= title %></title>
+</head>
+<body>
+<div>
+   <a href="/">Home</a> |
+   <a href="/store/add">Add item</a> |
+    <a href="/store">All items</a>
+</div>
+<h1><%= title %></h1>
